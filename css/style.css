@@ -251,9 +251,9 @@ Parallax
 
 #parallax1{
 	background-image: url(../img/parallax/3.jpg);
-	background-size: cover;
+	background-size: 100% 150%;
 	background-position: center;
-	background-repeat: no-repeat ;
+	/* background-repeat: no-repeat ; */
 
 }
 #parallax2{
