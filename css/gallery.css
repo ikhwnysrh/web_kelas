@@ -35,6 +35,8 @@
 
 .slick-dots {
   text-align: center;
+  padding-top: 20px;
+  padding-right: 23px;
 }
 
 .slick-dots li {
