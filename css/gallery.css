@@ -100,7 +100,7 @@
   display: none; /* Sembunyikan secara awal */
 }
 .overlay img {
-  width: 70%; /* Ubah lebar foto menjadi 70% dari lebar overlay */
+  width: 60%; /* Ubah lebar foto menjadi 70% dari lebar overlay */
   margin: auto; /* Geser ke tengah */
   display: block; /* Agar margin auto bekerja */
 }
