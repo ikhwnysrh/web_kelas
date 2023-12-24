@@ -180,3 +180,4 @@
   new WOW().init();
 
 })(jQuery);
+ 
