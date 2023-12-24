@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Alstar - Bootstrap one page parallax template</title>
+    <title>TEKOM F22</title>
     <meta charset="utf-8" />
     <meta
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
@@ -17,6 +17,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="css/style.css" rel="stylesheet" media="screen" />
     <link href="color/default.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 
     <!-- =======================================================
     Theme Name: Alstar
@@ -32,7 +35,7 @@
       <div class="container">
         <div class="navbar-header">
           <button
-            style="background-color: #ffffff1a;"
+            style="background-color: #ffffff1a"
             type="button"
             class="navbar-toggle"
             data-toggle="collapse"
@@ -67,15 +70,14 @@
           <div class="col-md-12">
             <div id="rotator">
               <h1>
-                <span class="typing"
-                  ></span
-                >
+                <span class="typing"></span>
               </h1>
               <div class="line-spacer"></div>
               <h3 class="type1"></h3>
               <p>
                 <span class="1strotate"
-                  >Computer Engineering, State University Of Makassar, Est. Since 2022</span
+                  >Computer Engineering, State University Of Makassar, Est.
+                  Since 2022</span
                 >
               </p>
             </div>
@@ -152,6 +154,100 @@
     </section>
 
     <!-- Services -->
+    <!-- <div class="gallery">
+      <img src="img/team/1.jpg" alt=""/>
+      <img src="img/team/2.jpg" alt=""/>
+      <img src="img/team/3.jpg" alt=""/>
+      <img src="img/team/4.jpg" alt=""/>
+    </div> -->
+    <div class="container my-5 pt-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-8">
+          <div class="text-center">
+            <h1 class="text-warning" style="font-size: 45px">Class Gallery</h1>
+            <!-- <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, nam dolorum cumque quibusdam iure ipsum
+              repellendus hic assumenda. Corrupti eius neque unde veniam esse
+              deleniti repellat enim praesentium possimus architecto.
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="slider">
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url(img/gallery/4.jpeg);
+              background-size: cover;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end"
+              style="height: 260px"
+            >
+              <div class="text-center pb-2 bg-dark w-100 pt-3 bg-opacity-75">
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url(img/gallery/5.jpeg);
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end"
+              style="height: 260px"
+            >
+              <div class="text-center pb-2 bg-dark w-100 pt-3 bg-opacity-75">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url(img/gallery/6.jpeg);
+              background-size: cover;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end"
+              style="height: 260px"
+            >
+              <div class="text-center pb-2 bg-dark w-100 pt-3 bg-opacity-75">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-3">
+          <div
+            class="card border-0 rounded-0"
+            style="
+              background-image: url(img/team/4.jpg);
+              background-size: cover;
+            "
+          >
+            <div
+              class="d-flex bg-opacity-25 justify-content-center align-items-end"
+              style="height: 260px"
+            >
+              <div class="text-center pb-2 bg-dark w-100 pt-3 bg-opacity-75">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <section id="services" class="home-section bg-white">
       <div class="container">
         <div class="row">
@@ -709,6 +805,31 @@
 
     <!-- Template Custom Javascript File -->
     <script src="js/custom.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(".slider").slick({
+        centerMode: true,
+        dots: true,
+        autoplay: true,
+        centerPadding: "60px",
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              Infinity: true,
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/TextPlugin.min.js"></script>
