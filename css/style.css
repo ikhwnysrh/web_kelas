@@ -181,7 +181,7 @@ nav.navbar.fixed-to-top {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #3a3a3a;
+  color: #000;
   cursor: pointer;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
