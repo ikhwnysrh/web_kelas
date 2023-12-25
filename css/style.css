@@ -337,6 +337,9 @@ About
   color: #000;
   text-shadow: rgba(255,255,255,1) 0px 0px 22px;
 }
+#about p{
+  padding-left: 15px;
+}
 
 #about .about-img {
   height: 350px;
