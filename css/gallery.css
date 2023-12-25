@@ -59,6 +59,7 @@
 }
 
 .slick-slider img {
+  border-radius: 15px;
   width: 100%;
   height: 250px;
 }
@@ -131,7 +132,6 @@
 }
 
 #services{
-  background-image: url(/img/gallery/bg-2.jpg);
   background-position: center;
 }
 .card{
