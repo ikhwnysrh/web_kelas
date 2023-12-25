@@ -124,3 +124,14 @@
   font-size: 18px;
   cursor: pointer;
 }
+
+.text-gallery{
+  color: #fff;
+  text-shadow: rgba(255,255,255,1) 0px 0px 22px;
+}
+
+#services{
+  background-image: url(/img/gallery/bg-3.jpg);
+  background-size: cover;
+  background-position: right;
+}
