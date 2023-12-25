@@ -328,13 +328,13 @@ Intro
 About
 ================================= */
 
-#about {
-  background-image: url(/img/gallery/bg-3.jpg);
-  background-size: cover;
+/* #about{
+  background-image: url(/img/gallery/bg-2.jpg);
+  background-size: ;
   background-position: center;
-}
+} */
 #about h2, p {
-  color: #fff;
+  color: #000;
   text-shadow: rgba(255,255,255,1) 0px 0px 22px;
 }
 
