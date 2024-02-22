@@ -838,3 +838,34 @@ more media queries
     font-size: 70px;
   }
 }
+
+.col-md-12{
+  padding: 20px
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .card-jadwal {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 3px solid #9999;
+  padding: 0px 50px;
+}
+
+.info .card-header {
+  border-bottom: 1px solid #9999;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.info .card-body {
+
+}
+
+.info .card-footer {
+  /* border-top: 1px solid #9999; */
+  border-bottom: 1px solid #9999;
+}
