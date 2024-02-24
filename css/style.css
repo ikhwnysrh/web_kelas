@@ -262,11 +262,19 @@ Parallax
 ============================= */
 
 #parallax1 {
-  background-image: url(../img/parallax/4.jpg);
-  background-size: 150% 140%;
+  background-image: url(../img/parallax/5.jpeg);
+  background-size: cover;
   background-position: center;
-  /* background-repeat: no-repeat ; */
+  /* background-repeat: no-repeat;
+  background-size: 100% 130%;
+  /* background-position: center; */
 }
+@media (max-width: 768px) {
+  #parallax1 {
+    background-size: 260% 140%;
+  }
+}
+
 #parallax2 {
   background-image: url(../img/parallax/2.jpg);
 }
