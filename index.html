@@ -19,6 +19,7 @@
     <link href="color/default.css" rel="stylesheet" media="screen" />
     <link rel="stylesheet" href="css/gallery.css" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
@@ -113,7 +114,7 @@
         <div class="row">
           <div class="col-md-offset-2 col-md-8">
             <div class="section-heading">
-              <h2>About us</h2>
+              <h2 data-aos="fade-down">About us</h2>
               <div class="heading-line"></div>
               <!-- <p>
                 We’ve been building unique digital products, platforms, and
@@ -123,11 +124,11 @@
           </div>
         </div>
         <div class="row wow fadeInUp">
-          <div class="col-md-6 about-img">
+          <div class="col-md-6 about-img" data-aos="fade-down">
             <img src="img/about-img.png" alt="" />
           </div>
 
-          <div class="col-md-6 content">
+          <div class="col-md-6 content" data-aos="fade-down">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
               magnam facere repellendus dolorum voluptatem, libero maxime
@@ -153,7 +154,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="color-light">
-              <h2 class="wow bounceInDown" data-wow-delay="0.5s">
+              <h2 class="wow bounceInDown" data-aos="fade-down">
                 We are more than just family
               </h2>
             </div>
@@ -172,7 +173,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-12 col-md-8">
             <div class="text-center">
-              <h1 class="text-gallery" style="font-size: 45px">
+              <h1 class="text-gallery" style="font-size: 45px" data-aos="fade-down">
                 Class Gallery
               </h1>
             </div>
@@ -180,7 +181,7 @@
         </div>
         <br />
 
-        <div class="slider">
+        <div class="slider" data-aos="zoom-in">
           <div class="mx-3">
             <a href="#gallery-4">
               <div
@@ -311,10 +312,10 @@
     <!-- jadwal -->
     <section id="info" class="info" style="background-color: #0a0a0a;">
       <div style="padding-bottom: 100px;" class="container">
-        <h2 style="padding-top: 50px;" class="text-gallery">Schedule</h2>
+        <h2 style="padding-top: 50px;" class="text-gallery" data-aos="fade-down">Schedule</h2>
         <div class="row justify-content-center mt-4">
-          <div class="col-md-12" data-aos="fade-down">
-            <div class="card-jadwal text-center text-bg-light">
+          <div class="col-md-12">
+            <div class="card-jadwal text-center text-bg-light" data-aos="fade-down">
               <div class="card-header fs-4">senin</div>
               <div class="card-body">
                 IoT
@@ -332,7 +333,7 @@
                 </div>
               </div>
             </div>
-            <div style="margin-top: 20px;" class="card-jadwal text-center text-bg-light">
+            <div style="margin-top: 20px;" class="card-jadwal text-center text-bg-light" data-aos="fade-down">
               <div class="card-header fs-4">selasa</div>
               <div class="card-body">
                 Rekayasa Perangkat Lunak
@@ -380,7 +381,7 @@
                 </div>
               </div>
             </div>
-            <div style="margin-top: 20px;" class="card-jadwal text-center text-bg-light">
+            <div style="margin-top: 20px;" class="card-jadwal text-center text-bg-light" data-aos="fade-down">
               <div class="card-header fs-4">rabu</div>
               <div class="card-body">
                 Pemrograman Mobile
@@ -398,7 +399,7 @@
                 </div> 
               </div>  
             </div>             
-            <div style="margin-top: 20px;" class="card-jadwal text-center text-bg-light">
+            <div style="margin-top: 20px;" class="card-jadwal text-center text-bg-light" data-aos="fade-down">
               <div class="card-header fs-4">kamis</div>
               <div class="card-body">
                 Permodelan dan Metode Numerik
@@ -442,8 +443,8 @@
 
     <!-- disqus -->
     <section style="color: #0a0a0a;" class="home-section">
-      <h2 style="color: #0a0a0a;">Random Chat</h2>
-      <h6>*note : login terlebih dahulu.</h6>
+      <h2 style="color: #0a0a0a;" data-aos="fade-down">Random Chat</h2>
+      <h6 data-aos="fade-down">*note : login terlebih dahulu.</h6>
       <div class="col-md-12">
         <div id="disqus_thread"></div>
           <script>
@@ -922,6 +923,10 @@
     <script src="js/custom.js"></script>
     <script src="js/gallery.js"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
