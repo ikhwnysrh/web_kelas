@@ -750,10 +750,12 @@ ul.social-network li a i {
 /* ================================
 Footer
 ================================= */
-footer {
-  background: #00c1c1;
-  color: #fff;
-  padding: 50px 0 30px;
+.footer{
+  /* background-color: #0a0a0a; */
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: white;
+  text-shadow: rgba(255,255,255,1) 0px 0px 22px;
 }
 
 footer a {
@@ -847,9 +849,10 @@ more media queries
   }
 }
 
-.col-md-12{
+/* .col-md-12{
   padding: 20px
-}
+} */
+
 .info{
   display: flex;
   justify-content: center;
@@ -876,4 +879,12 @@ more media queries
 .info .card-footer {
   /* border-top: 1px solid #9999; */
   border-bottom: 1px solid #9999;
+}
+.disqus{
+  padding: 0px 20px;
+}
+#chat{
+  margin-top: 100px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
 }
