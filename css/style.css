@@ -271,7 +271,7 @@ Parallax
 }
 @media (max-width: 768px) {
   #parallax1 {
-    background-size: 270% 150%;
+    background-size: 260% 150%;
   }
 }
 
