@@ -752,7 +752,7 @@ Footer
 ================================= */
 .footer{
   /* background-color: #0a0a0a; */
-  padding-top: 100px;
+  margin-top: 100px;
   padding-bottom: 50px;
   color: white;
   text-shadow: rgba(255,255,255,1) 0px 0px 22px;
@@ -880,7 +880,7 @@ more media queries
   padding: 0px 20px;
 }
 #chat{
-  margin-top: 100px;
+  padding-top: 100px;
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
 }
