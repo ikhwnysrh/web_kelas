@@ -9,12 +9,6 @@ a, a:hover {
   color: #000;
 }
 
-
-.back-to-top:focus {
-  background: #000;
-  color: #fff;
-}
-
 .back-to-top:hover {
   background: #000;
   color: #fff;
