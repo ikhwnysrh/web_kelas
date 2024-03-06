@@ -64,7 +64,7 @@
 
       images: [
         "img/bgslides/4.jpeg",
-        "img/bgslides/5.jpeg",
+        "img/bgslides/5.jpeg",  
         "img/bgslides/6.jpeg"
       ],
 
@@ -180,4 +180,5 @@
   new WOW().init();
 
 })(jQuery);
+
  
