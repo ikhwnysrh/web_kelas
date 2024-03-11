@@ -273,9 +273,9 @@ Parallax
 }
 @media (max-width: 768px) {
   #parallax1 {
-    /* background-size: 260% 160%; */
+    background-size: 260% 160%;
     position: relative;
-    background-size: auto;
+    /* background-size: auto; */
     background-repeat: no-repeat;
   }
 }
@@ -869,6 +869,7 @@ more media queries
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: repeating-linear-gradient(45deg, rgb(27, 27, 27) 0px, rgb(27, 27, 27) 97px,rgb(24, 24, 24) 97px, rgb(24, 24, 24) 194px,rgb(20, 20, 20) 194px, rgb(20, 20, 20) 291px);
 }
 
 .info .card-jadwal {
